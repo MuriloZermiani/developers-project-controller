@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1919"
+    android:foregroundTint="@color/black">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#AA5050"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- TextView -->
+        <TextView
+            android:id="@+id/tituloCabCadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/white"
+            android:paddingBottom="16dp"
+            android:text="@string/Cadastrar"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <!-- EditText -->
+        <TextView
+            android:id="@+id/nomeDev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NomeProjeto"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/HintTxtProjeto"
+            android:paddingBottom="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <!-- RadioGroup with RadioButtons -->
+
+        <TextView
+            android:id="@+id/tituloRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingBottom="0dp"
+            android:text="@string/TipoProjeto"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButtonDesktop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desktop"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/radioButtonWeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Web"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/radioButtonMobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/radioButtonGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Game"
+                android:textColor="@color/white" />
+        </RadioGroup>
+
+        <!-- CheckBox -->
+        <CheckBox
+            android:id="@+id/checkBoxStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/IsFinalizado"
+            android:textColor="@color/white" />
+
+        <!-- Spinner -->
+        <TextView
+            android:id="@+id/tituloCabDdl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/FinalidadeProjeto"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinnerUso"
+            style="@android:style/Widget.DeviceDefault.Light.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dropDownSelector="@android:drawable/arrow_down_float"
+            android:padding="16dp"
+            android:spinnerMode="dropdown" />
+
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/buttonSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:onClick="salvarCadastro"
+            android:text="@string/Salvar" />
+
+        <Button
+            android:id="@+id/buttonLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:onClick="limparCadastro"
+            android:text="@string/Limpar" />
+
+    </LinearLayout>
+</ScrollView>

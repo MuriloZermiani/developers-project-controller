@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ControleProjetoDev</string>
+    <string name="app_description">Controlador de projetos para desenvolvedores</string>
+    <string name="uso_pessoal">Pessoal</string>
+    <string name="uso_corporativo">Corporativo </string>
+    <string name="uso_educacional">Educacional</string>
+    <string name="web">Web</string>
+    <string name="mobile">Mobile</string>
+    <string name="desktop">Desktop</string>
+    <string name="database">Database</string>
+    <string name="game">Game</string>
+    <string name="b_i">B.I</string>
+    <string name="crm">CRM</string>
+    <string name="erp">ERP</string>
+    <string name="rpa">RPA</string>
+    <string name="devOps">DevOps</string>
+    <string name="salvar">Salvar</string>
+    <string name="excluir">Excluir</string>
+    <string name="usar_dados">Usar dados</string>
+    <string name="azul">Azul</string>
+    <string name="vermelho">Vermelho</string>
+    <string name="sub_menu">Sub Menu</string>
+    <string name="opcao_1">Opcao 1</string>
+    <string name="opcao_2">Opcao 2</string>
+    <string name="foi_clicado">Foi Clicado</string>
+    <string name="editar">Editar</string>
+    <string name="sobre">Sobre o App</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="tema">Mudar Tema</string>
+    <string name="novo_projeto">Cadastrar Projeto</string>
+    <string name="editar_projeto">Editar Projeto</string>
+    <string name="Apresentação">Hey Dev, seja bem vindo ao seu controlador de projetos.</string>
+    <string name="Sair">Sair</string>
+    <string name="Prosseguir">Prosseguir</string>
+    <string name="Cadastrar">Cadastrar um novo Projeto</string>
+    <string name="HintTxtProjeto">Digite o nome do Projeto</string>
+    <string name="TipoProjeto">Tipo de Projeto</string>
+    <string name="IsFinalizado">Projeto Finalizado?</string>
+    <string name="FinalidadeProjeto">Escolha a finalidade do projeto</string>
+    <string name="Salvar">Salvar</string>
+    <string name="Limpar">Limpar</string>
+    <string name="TxtConfereProjeto">Confere Projetos</string>
+    <string name="txtDetalheApp">Este Aplicativo têm por finalidade gerenciar os projetos criados por um usuário, sendo este desenvolvedor de softwares. Na rotina de Dev, principalmente os freelancers por exemplo, é normal se deparar com inúmeros projetos tecnológicos sendo feito simultaneamente. Com isso, muitas vezes fica difícil em meio a esse emaranhado de pastas de projetos, identificar ou lembrar qual foi finalizado ou em que status essa aplicação se encontra. Esse gerenciador vem para ajudar a resolver justamente essa questão.</string>
+    <string name="DevelopBy">Desenvolvido Por: Murilo Zermiani Costa Data: 01/07/2024</string>
+    <string name="PerguntaAcao">O que deseja fazer no aplicativo neste momento?</string>
+    <string name="MeusProjetos">Meus Projetos</string>
+    <string name="NomeProjeto">Nome do Projeto</string>
+    <string name="InfoApp">Informações sobre o aplicativo</string>
+    <string name="nome">nome</string>
+    <string name="tipo">tipo</string>
+    <string name="txtFinalidade">Finalidade</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="ok">Ok</string>
+    <string name="aviso">Warning</string>
+    <string name="confirmacao">confirmacao</string>
+
+    <string name="erro_ao_tentar_inserir">Error ao tentar inserir!</string>
+    <string name="erro_ao_tentar_alterar">Erro ao tentar Alterar!</string>
+    <string name="erro_ao_tentar_apagar">Erro ao tentar Apagar!</string>
+    <string name="tem_certeza_de_que_deseja_exluir_este_projeto">Tem certeza de que deseja exluir este projeto?</string>
+
+</resources>

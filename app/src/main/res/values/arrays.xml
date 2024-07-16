@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="finalidadeProjeto">
+        <item></item>
+    </string-array>
+    <string-array name="tipoProjeto">
+        <item>@string/web</item>
+        <item>@string/mobile</item>
+        <item>@string/desktop</item>
+        <item>@string/database</item>
+        <item>@string/game</item>
+        <item>@string/b_i</item>
+        <item>@string/crm</item>
+        <item>@string/erp</item>
+        <item>@string/rpa</item>
+        <item>@string/devOps</item>
+    </string-array>
+    <integer-array name="idTipoProjeto">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+</resources>

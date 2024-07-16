@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DevProjectControl</string>
+    <string name="uso_pessoal">Personal</string>
+    <string name="uso_corporativo">Corporate</string>
+    <string name="uso_educacional">Educational</string>
+    <string name="web" translatable="false">Web</string>
+    <string name="mobile" translatable="false">Mobile</string>
+    <string name="desktop" translatable="false">Desktop</string>
+    <string name="database" translatable="false">Database</string>
+    <string name="game" translatable="false">Game</string>
+    <string name="b_i" translatable="false">B.I</string>
+    <string name="crm" translatable="false">CRM</string>
+    <string name="erp" translatable="false">ERP</string>
+    <string name="rpa" translatable="false">RPA</string>
+    <string name="devOps" translatable="false">DevOps</string>
+    <string name="salvar">Save</string>
+    <string name="excluir">Delete</string>
+    <string name="usar_dados">Use Data</string>
+    <string name="azul">Blue</string>
+    <string name="vermelho">Red</string>
+    <string name="sub_menu">Sub Menu</string>
+    <string name="opcao_1">Option 1</string>
+    <string name="opcao_2">Option 2</string>
+    <string name="foi_clicado">Was Clicked</string>
+    <string name="novo_projeto">Register Project</string>
+    <string name="editar_projeto">Edit Project</string>
+    <string name="Apresentação">Hey Dev, welcome to you project control.</string>
+    <string name="Sair">Sair</string>
+    <string name="Prosseguir">Prosseguir</string>
+    <string name="Cadastrar">Register a New Project</string>
+    <string name="HintTxtProjeto">Enter the Project name</string>
+    <string name="TipoProjeto">Type Project</string>
+    <string name="IsFinalizado">Projeto Finished?</string>
+    <string name="FinalidadeProjeto">Escolha a finalidade do projeto</string>
+    <string name="Salvar">Save</string>
+    <string name="Limpar">Clear</string>
+    <string name="TxtConfereProjeto">Check Projects</string>
+    <string name="DevelopBy">Develop by: Murilo Zermiani Costa In: 01/07/2024</string>
+    <string name="MeusProjetos">My Projects</string>
+    <string name="nome">nome</string>
+    <string name="tipo">tipo</string>
+    <string name="txtFinalidade">Finalidade</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="ok">Ok</string>
+    <string name="aviso">Warning</string>
+    <string name="confirmacao">confirmacao</string>
+
+    <string name="erro_ao_tentar_inserir">Error ao tentar inserir!</string>
+    <string name="erro_ao_tentar_alterar">Error ao tentar alterar!</string>
+    <string name="erro_ao_tentar_apagar">Error ao tentar apagar!</string>
+    <string name="tem_certeza_de_que_deseja_exluir_este_projeto">Tem certeza de que deseja exluir este projeto?</string>
+
+</resources>
